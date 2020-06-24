@@ -24,6 +24,6 @@
     "octokit-create-pull-request": "^1.5.0"
   },
   "dependencies": {
-    "react": "16.12.0"
+    "react": "16.13.1"
   }
 }
