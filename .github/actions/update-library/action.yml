@@ -1,0 +1,5 @@
+name: 'Update library'
+description: Creates a PR updating a library after a new version has been published.
+runs:
+  using: 'node12'
+  main: './index.js'
