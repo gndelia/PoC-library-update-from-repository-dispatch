@@ -1,0 +1,29 @@
+{
+  "name": "poc-library-update-from-repository-dispatch",
+  "version": "1.0.0",
+  "description": "PoC about updating a specific library in package.json in the context of a github action. This action will be triggered by an event dispatch from the targeted library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndelia/PoC-library-update-from-repository-dispatch.git"
+  },
+  "author": {
+    "name": "Gonzalo D'Elia",
+    "email": "gonzalo.n.delia@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gndelia/PoC-library-update-from-repository-dispatch/issues"
+  },
+  "homepage": "https://github.com/gndelia/PoC-library-update-from-repository-dispatch#readme",
+  "devDependencies": {
+    "@octokit/rest": "^17.6.0",
+    "octokit-create-pull-request": "^1.5.0"
+  },
+  "dependencies": {
+    "react": "16.12.0"
+  }
+}

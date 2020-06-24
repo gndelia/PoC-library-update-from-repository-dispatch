@@ -1,2 +1,4 @@
 # PoC-library-update-from-repository-dispatch
-PoC about updating a specific library by listening from a repository dispatch event from the targeted library, in their github actions
+PoC about updating a specific library in `package.json` in the context of a github action. This action will be triggered by an event dispatch from the targeted library
+
+
